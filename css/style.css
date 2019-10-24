@@ -185,6 +185,17 @@ p {
   font-family: 'Open Sans', sans-serif;
   text-decoration: bold;
   color: white;
+  display: block;
+}
+
+.enviarformulario {
+  background-color: #333;
+  color: red;
+  font-family: 'Bangers', cursive;
+  font-size: 30px;
+  display: block;
+  width: 40%;
+  height: 45px;
 }
 
 /* PIE DE PAGINA*/
