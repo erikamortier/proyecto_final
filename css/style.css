@@ -121,8 +121,6 @@ p {
 .flexbox1 {
 	display: flex;
 	flex-direction: row;
-	margin-right: auto;
-	margin-left: auto;
 	width: 100%;
   justify-content: space-around;
 
@@ -132,8 +130,6 @@ p {
   display: flex;
   flex-direction: column;
   text-align: center;
-
-
 }
 
 .links1 {
@@ -150,24 +146,14 @@ p {
 }
 
 /* TAMAÑO DE IMAGENES */
-.miniaturahorizontal {
+.fotosportada {
 	width: 350px;
+  height: 450px;
 }
 
-.miniaturavertical {
-	width: 400px;
-}
-
-.medianahorizontal {
-	width: 35%; 
-}
-
-.grandehorizontal {
-	width: 70%;
-}
-
-.grandevertical {
-	width: 50%;
+.fotosseccion {
+	width: 300px;
+  height: 300px;
 }
 
 .imagencontacto {
