@@ -192,6 +192,7 @@ p {
 /* PIE DE PAGINA*/
 
 footer {
+  clear: left;
   text-align: center;
   size: 12px
 }
