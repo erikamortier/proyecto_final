@@ -1,11 +1,7 @@
 /*FONDO*/
 body {
-	background-color: #f9b282;
+	background-color: #FFE7AD;
 	font-family: 'Open Sans', sans-serif;
-}
-
-.menuprincipal {
-
 }
 
 .SANKAMILAN {
@@ -26,7 +22,7 @@ body {
 .navbar a {
   float: left;
   font-size: 20px;
-  color: white;
+  color: #8f4426;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -44,7 +40,7 @@ body {
   font-size: 20px;
   border: none;
   outline: none;
-  color: white;
+  color: #8f4426;
   padding: 14px 16px;
   background-color: inherit;
   font-family: 'Open Sans', sans-serif;
@@ -103,16 +99,8 @@ p {
   font-size: 14px;
 }
 
-.texto1 { 
-	color: white;
-	font-family:  'Open Sans', sans-serif;
-  padding: 30px; 
-}
 
-.texto1:hover {
-  color: white;
-  text-decoration: none; 
-}
+
 
 /* SECCION DE FOTOS */
 .flexbox1 {
@@ -126,26 +114,38 @@ p {
   display: flex;
   flex-direction: column;
   text-align: center;
+  align-content: center;
 }
+
 
 .links1 {
   font-family: 'Bangers', cursive;
   font-size: 35px;
   color: #FF0000;
   text-decoration: none;
+  margin-bottom: 10px;
 }
 
 .links1:hover { 
 	color: #f9b282; 
 	text-decoration: none;
   background-color: #8f4426;
+}
 
+.links2 {
+  color: #8f4426;
+  text-decoration: none;
+}
+
+.links2:hover {
+  color: #ff0000;
 }
 
 /* TAMAÑO DE IMAGENES */
 .fotosportada {
 	width: 350px;
   height: 450px;
+  border: 8px solid #8f4426;
 }
 
 .fotosseccion {
@@ -156,19 +156,28 @@ p {
 .imagencontacto {
   width: 40%;
   float: left;
-  border: solid #de6835 15px;
+  border: a(0.5) #de6835 15px;
+}
+
+.texto1  { 
+  color: white;
+  font-family:  'Open Sans', sans-serif;
+  padding: 20px; 
+  text-align: center;
 }
 
 .formulariocontacto {
-  padding: 20px; 
+  margin-left: 20px; 
   width: 40%;
   height: 30px;
-  background-color: #de6835, 0.2;
+  background-color: white;
+  border: solid 2px #8f4426;
   font-size: 16px;
   font-family: 'Open Sans', sans-serif;
   text-decoration: bold;
-  color: white;
-  display: block;
+  color: #8f4426;
+  margin: 3px;
+
 }
 
 .enviarformulario {
@@ -176,7 +185,6 @@ p {
   color: #f9b282;
   font-family: 'Bangers', cursive;
   font-size: 30px;
-  display: block;
   width: 40%;
   height: 45px;
 }
@@ -219,7 +227,7 @@ footer {
   size: 12px}
 
 hr {
-  color: black;
+  color: #de6835;
   width: 100%;
 }
 
